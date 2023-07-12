@@ -1,8 +1,7 @@
 mod components;
 use components::header::header;
 
-fn call_header(){
-
+#[allow(dead_code)]
+fn call_header() {
     header();
-
 }

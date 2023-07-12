@@ -1,13 +1,17 @@
+mod components;
 mod mod1;
 mod mod2; // Works
-mod components
-mod my;::header::{call_header};
-//use crate::call_header;
 
+use components::header::*;
+use mod1::*;
+use mod2::*;
 
 fn main() {
-    println!("main (main.rs) Hello, world!");
-    mod1::mod1fn();
+    println!("main (main.rs) Hello, main!");
+    mod1::mod1fn1();
     mod2::mod2fn1();
-    header();
+    components::header::header();
+    use_header();
+    mod1fn1();
+    mod2fn1();
 }

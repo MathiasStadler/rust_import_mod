@@ -1,6 +1,7 @@
 mod mod1;
 mod mod2; // Works
-mod components::header::{call_header};
+mod components
+mod my;::header::{call_header};
 //use crate::call_header;
 
 

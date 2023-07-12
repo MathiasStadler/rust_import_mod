@@ -1,2 +1,2 @@
 
-# Example call fn from another file
+# Example call a function from another file
